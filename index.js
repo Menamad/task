@@ -47,7 +47,7 @@ contents.forEach((content)=>{
 
         }
         else if(content.dataset.id === "yama"){
-            run("audios/تحميل اغنية علي بالي - مسلم MP3 - مطبعه دوت كوم.mp3")
+            run("audios/ياما ليالي وانت مش معايا _ سارة هيثم _ الاغنية كاملة Yama layaly w enta msh m3aya - Sara Haitham - Exclusive Music.mp3")
 
         }
     })
