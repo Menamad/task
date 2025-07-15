@@ -1,0 +1,136 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    scroll-behavior: smooth;
+}
+
+
+
+a{
+    text-decoration: none;
+
+}
+
+.container{
+    min-height: 100vh;
+    padding: 6px 9px 0px 9px;
+}
+.container header{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    width: 100%;
+    gap: 10px;
+}
+
+.login{
+    color: black;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+.logo{
+    display: flex;
+    color:black;
+    justify-content: center;
+    align-items: center;
+    font-size:xx-large;
+    color: red;
+
+
+}
+
+.Search input , button{
+    outline: none;
+    border-style: none;
+    padding: 5px;
+    height: 100%;
+}
+
+.Search{
+    display: grid;
+    grid-template-columns:1fr 4fr;
+    border: 2px solid black;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+    border-radius: 13px;
+    overflow: hidden;
+    width: 100%;
+
+}
+
+.Search button{
+    display: flex;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+}
+
+.Search input{
+    font-size: larger;
+
+    width: 100%;
+
+}
+
+
+
+.main-cont{
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit , minmax(300px,1fr));
+    gap:8px;
+
+}
+
+img{
+    width: 100%;
+}
+
+
+.info{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.info a{
+    color: black;
+    font-size: large;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.info p{
+    text-transform: capitalize;
+}
+
+
+.active{
+    border: 2px solid red;
+
+}
+
+
+.content{
+    padding: 6px;
+
+
+}
+
+.content2 , .content2 a{
+    text-align: end;
+    color: black;
+}
+
+.warning{
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
