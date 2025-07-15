@@ -5,6 +5,7 @@ const audio = document.querySelector("audio")
 const searchBtn = document.getElementById("searchBtn")
 const searchIn = document.getElementById("searchIn")
 const containerCont = document.querySelector(".main-cont")
+const stopbtn = document.querySelector(".stop")
 
 function  run(src){
     audio.currentTime = 0
@@ -50,6 +51,13 @@ contents.forEach((content)=>{
             run("audios/ياما ليالي وانت مش معايا _ سارة هيثم _ الاغنية كاملة Yama layaly w enta msh m3aya - Sara Haitham - Exclusive Music.mp3")
 
         }
+    })
+})
+
+stopbtn.addEventListener("click" , ()=>{
+    stop()
+    contents.forEach(c=>{
+        c.classList.remove("active")
     })
 })
 
